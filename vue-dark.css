@@ -143,6 +143,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     --select-text-font-color: #fff;
     --bg-color: #1d1d1d;
     --item-hover-bg-color: #fff;
+    --active-file-border-color: #ff0000;
 }
 
 /* cyrillic-ext */
@@ -1014,3 +1015,4 @@ html{
     /* background-color: hsla(153, 47%, 49%, 0.5) !important; */
     /* color: #fff !important; */
 /* } */
+
