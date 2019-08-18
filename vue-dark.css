@@ -703,7 +703,7 @@ table tr td:last-child {
     background-color: hsl(0, 0%, 10%) !important;
     border-radius: 2px;
     font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
-    /*font-weight: bold;*/
+    /* font-weight: bold; */
     font-size: 0.85rem;
     word-wrap: normal;
 }
@@ -717,7 +717,7 @@ table tr td:last-child {
     padding: 2px 4px;
     border-radius: 2px;
     font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
-    /*font-weight: bold;*/
+    /* font-weight: bold; */
     font-size: 0.85rem;
     color: #f3b37f;
     background-color: hsla(0, 0%, 0%, 0.2);
@@ -883,12 +883,12 @@ footer {
 #typora-sidebar {
     /* font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important; */
     font-family: Helvetica, Arial !important;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .file-list-item-summary{
     font-family: Helvetica, Arial !important;
-    font-weight: 400;
+    /* font-weight: 400; * /
 }
 
 .file-list-item {
@@ -906,7 +906,7 @@ footer {
 #toc-dropmenu {
     background: hsl(0, 0%, 18%) !important;
     /* font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important; */
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #toc-content {
@@ -970,7 +970,7 @@ html{
 .auto-suggest-container {
     color: #42b983 !important;
     font-family: Menlo, Source Sans Pro, Monaco, courier, monospace !important;
-    font-weight: bold !important;
+    /* font-weight: bold !important; */
     border-color: #42b983 !important;
     border-radius: 8px !important;
     border-width: 2px !important;
