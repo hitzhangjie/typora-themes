@@ -133,7 +133,9 @@ div.CodeMirror span.CodeMirror-matchingbracket {
 
 div.CodeMirror span.CodeMirror-nonmatchingbracket {
     color: #ff9090
-}:root {
+}
+
+:root {
     --side-bar-bg-color: #343333;
     /* --side-bar-bg-color: #fff; */
     --control-text-color: #ffffff;
@@ -142,6 +144,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     --select-text-bg-color: hsl(153, 47%, 40%);
     --select-text-font-color: #fff;
     --bg-color: #1d1d1d;
+    --text-color: #ffffff;
     --item-hover-bg-color: #fff;
     --active-file-border-color: #ff0000;
 }
@@ -1016,3 +1019,11 @@ html{
     /* color: #fff !important; */
 /* } */
 
+
+/*
+input {
+    background-color: inherit;
+    background-color: var(--bg-color);
+    color: var(--text-color)
+}
+*/
