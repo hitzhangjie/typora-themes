@@ -25,6 +25,8 @@
     --primary-color: #6dc1e7;
 
     --rawblock-edit-panel-bd: #333;
+
+    --search-select-bg-color: #428bca;
 }
 
 html {
@@ -951,7 +953,7 @@ footer.ty-footer {
     line-height: 22px;
 }
 
-.file-node-open-state, .file-node-icon {
+.html-for-mac .file-node-open-state, .html-for-mac .file-node-icon {
     line-height: 26px;
 }
 
@@ -969,4 +971,17 @@ footer.ty-footer {
 
 .nav-group-item:active {
     background-color: #474d54;
+}
+
+.md-search-hit {
+    background-color: rgba(199, 140, 60, 0.81);
+    color: #eee;
+}
+
+.md-search-hit * {
+    color: #eee;
+}
+
+#md-searchpanel input {
+    color: white;
 }
