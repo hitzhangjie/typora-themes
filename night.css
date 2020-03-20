@@ -973,7 +973,7 @@ footer.ty-footer {
 }
 
 .md-search-hit {
-    background: rgba(199, 140, 60, 0.81);
+    background-color: rgba(199, 140, 60, 0.81);
     color: #eee;
 }
 
