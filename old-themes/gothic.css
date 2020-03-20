@@ -1,5 +1,4 @@
-@include-when-export url(https://fonts.loli.net/css?family=Ubuntu:400,700,400italic,700italic);
-@include-when-export url(https://fonts.loli.net/css?family=Raleway:600,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.loli.net/css?family=Didact+Gothic&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext);
 
 @font-face {
 	font-family: 'TeXGyreAdventor';
@@ -26,6 +25,25 @@
 	src: url(./gothic/texgyreadventor-bolditalic.woff) format('woff');
 }
 
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(./gothic/didact-gothic-c-ext.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(./gothic/didact-gothic-c.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
 :root {
 	--window-border: none;
 	--typora-center-window-title: true;
@@ -45,7 +63,7 @@ body,
 #write{
 	background: #fcfcfc;
 	background: var(--bg-color);
-	font-family: 'TeXGyreAdventor', "Century Gothic", 'Yu Gothic', 'Raleway', sans-serif;
+	font-family: 'TeXGyreAdventor', "Century Gothic", "Didact Gothic", "Yu Gothic", sans-serif;
 	font-weight: 300;
 }
 h1,
@@ -55,7 +73,7 @@ h4,
 h5,
 h6 {
 	color: #111;
-	font-family: 'TeXGyreAdventor', "Century Gothic", 'Yu Gothic', 'Ubuntu', sans-serif;
+	font-family: 'TeXGyreAdventor', "Century Gothic", "Didact Gothic", "Yu Gothic", sans-serif;
 }
 
 html {
